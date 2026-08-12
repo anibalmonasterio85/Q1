@@ -1020,3 +1020,1325 @@ mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'a
 [2026-05-03 01:05:46] INFO in _internal: 192.168.50.209 - - [03/May/2026 01:05:46] "GET /api/stats HTTP/1.1" 200 -
 [2026-05-03 01:05:52] INFO in _internal: 192.168.50.209 - - [03/May/2026 01:05:52] "GET /api/accesos/live?_t=1777784752280 HTTP/1.1" 200 -
 [2026-05-03 01:05:52] INFO in _internal: 192.168.50.209 - - [03/May/2026 01:05:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-14 23:26:58] WARNING in app: Could not initialize admin user: 2003 (HY000): Can't connect to MySQL server on 'localhost:3307' (10061)
+[2026-05-14 23:26:58] WARNING in app: Could not initialize admin user: 2003 (HY000): Can't connect to MySQL server on 'localhost:3307' (10061)
+[2026-05-14 23:26:58] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-14 23:26:58] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-14 23:26:59] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.103:5000
+[2026-05-14 23:26:59] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-14 23:26:59] INFO in _internal:  * Restarting with stat
+[2026-05-14 23:27:04] WARNING in app: Could not initialize admin user: 2003 (HY000): Can't connect to MySQL server on 'localhost:3307' (10061)
+[2026-05-14 23:27:04] WARNING in app: Could not initialize admin user: 2003 (HY000): Can't connect to MySQL server on 'localhost:3307' (10061)
+[2026-05-14 23:27:04] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-14 23:27:04] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-14 23:27:04] WARNING in _internal:  * Debugger is active!
+[2026-05-14 23:27:04] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:19:51] WARNING in app: Could not initialize admin user: 1049 (42000): Unknown database 'qr_access'
+[2026-05-15 00:19:51] WARNING in app: Could not initialize admin user: 1049 (42000): Unknown database 'qr_access'
+[2026-05-15 00:19:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:19:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:19:52] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.103:5000
+[2026-05-15 00:19:52] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:19:52] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:19:53] WARNING in app: Could not initialize admin user: 1049 (42000): Unknown database 'qr_access'
+[2026-05-15 00:19:53] WARNING in app: Could not initialize admin user: 1049 (42000): Unknown database 'qr_access'
+[2026-05-15 00:19:53] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:19:53] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:19:53] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:19:53] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:21:49] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:21:49] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:21:49] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:21:49] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:21:50] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.103:5000
+[2026-05-15 00:21:50] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:21:50] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:21:51] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:21:51] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:21:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:21:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:21:51] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:21:51] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:22:38] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:22:38] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:22:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:22:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:22:39] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.103:5000
+[2026-05-15 00:22:39] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:22:39] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:22:40] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:22:40] WARNING in app: Could not initialize admin user: 1054 (42S22): Unknown column 'notas' in 'INSERT INTO'
+[2026-05-15 00:22:40] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:22:40] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:22:40] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:22:40] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:30:57] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-15 00:30:57] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-15 00:30:57] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:30:57] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:30:58] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.103:5000
+[2026-05-15 00:30:58] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:30:58] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:30:58] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:30:58] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:30:59] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:30:59] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:32:25] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\config\\settings.py', reloading
+[2026-05-15 00:32:26] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:32:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:32:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:32:28] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:32:28] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:34:47] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\config\\settings.py', reloading
+[2026-05-15 00:34:47] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:34:49] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-15 00:34:49] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-15 00:34:49] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:34:49] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:34:49] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:34:49] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:35:57] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:35:57] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:35:58] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-15 00:35:58] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:35:58] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:35:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:35:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:35:59] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:35:59] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:36:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:02] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:36:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:02] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-15 00:36:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:02] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-15 00:36:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:02] "GET /api/accesos/live?_t=1778819762930 HTTP/1.1" 200 -
+[2026-05-15 00:36:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:03] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:36:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:03] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:36:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:07] "GET /api/accesos/live?_t=1778819767931 HTTP/1.1" 200 -
+[2026-05-15 00:36:08] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:08] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:12] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:36:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:13] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-15 00:36:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:13] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-15 00:36:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:13] "GET /api/accesos/live?_t=1778819772935 HTTP/1.1" 200 -
+[2026-05-15 00:36:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:13] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:13] "GET /api/accesos/live?_t=1778819773577 HTTP/1.1" 200 -
+[2026-05-15 00:36:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:36:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:13] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:36:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:15] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:36:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:36:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:36:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:15] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:36:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:15] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:36:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:17] "GET /api/accesos/live?_t=1778819777934 HTTP/1.1" 200 -
+[2026-05-15 00:36:18] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:18] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:23] "GET /api/accesos/live?_t=1778819782944 HTTP/1.1" 200 -
+[2026-05-15 00:36:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:23] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:27] "GET /api/accesos/live?_t=1778819787943 HTTP/1.1" 200 -
+[2026-05-15 00:36:28] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:28] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:33] "GET /api/accesos/live?_t=1778819792932 HTTP/1.1" 200 -
+[2026-05-15 00:36:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:33] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:37] "GET /api/accesos/live?_t=1778819797941 HTTP/1.1" 200 -
+[2026-05-15 00:36:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:38] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:43] "GET /api/accesos/live?_t=1778819802945 HTTP/1.1" 200 -
+[2026-05-15 00:36:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:45] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:45] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:36:45] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:36:45] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:36:45] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:45] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:36:45] INFO in _internal: 192.168.50.103 - - [15/May/2026 00:36:45] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:36:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:47] "GET /api/accesos/live?_t=1778819807942 HTTP/1.1" 200 -
+[2026-05-15 00:36:48] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:48] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:53] "GET /api/accesos/live?_t=1778819812939 HTTP/1.1" 200 -
+[2026-05-15 00:36:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:53] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:36:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:57] "GET /api/accesos/live?_t=1778819817942 HTTP/1.1" 200 -
+[2026-05-15 00:36:58] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:36:58] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:03] "GET /api/accesos/live?_t=1778819822942 HTTP/1.1" 200 -
+[2026-05-15 00:37:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:03] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:07] "GET /api/accesos/live?_t=1778819827940 HTTP/1.1" 200 -
+[2026-05-15 00:37:08] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:08] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:13] "GET /api/accesos/live?_t=1778819832935 HTTP/1.1" 200 -
+[2026-05-15 00:37:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:13] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:17] "GET /api/accesos/live?_t=1778819837936 HTTP/1.1" 200 -
+[2026-05-15 00:37:18] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:18] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:23] "GET /api/accesos/live?_t=1778819842938 HTTP/1.1" 200 -
+[2026-05-15 00:37:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:23] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:27] "GET /api/accesos/live?_t=1778819847939 HTTP/1.1" 200 -
+[2026-05-15 00:37:28] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:28] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:33] "GET /api/accesos/live?_t=1778819852937 HTTP/1.1" 200 -
+[2026-05-15 00:37:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:33] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:37] "GET /api/accesos/live?_t=1778819857936 HTTP/1.1" 200 -
+[2026-05-15 00:37:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:38] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:43] "GET /api/accesos/live?_t=1778819862935 HTTP/1.1" 200 -
+[2026-05-15 00:37:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:47] "GET /api/accesos/live?_t=1778819867935 HTTP/1.1" 200 -
+[2026-05-15 00:37:48] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:48] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:53] "GET /api/accesos/live?_t=1778819873092 HTTP/1.1" 200 -
+[2026-05-15 00:37:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:53] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:37:58] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:58] "GET /api/accesos/live?_t=1778819878097 HTTP/1.1" 200 -
+[2026-05-15 00:37:58] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:37:58] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:03] "GET /api/accesos/live?_t=1778819883098 HTTP/1.1" 200 -
+[2026-05-15 00:38:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:03] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:08] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:08] "GET /api/accesos/live?_t=1778819888098 HTTP/1.1" 200 -
+[2026-05-15 00:38:08] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:08] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:13] "GET /api/accesos/live?_t=1778819893097 HTTP/1.1" 200 -
+[2026-05-15 00:38:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:13] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:18] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:18] "GET /api/accesos/live?_t=1778819898096 HTTP/1.1" 200 -
+[2026-05-15 00:38:18] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:18] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:23] "GET /api/accesos/live?_t=1778819903099 HTTP/1.1" 200 -
+[2026-05-15 00:38:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:23] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:28] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:28] "GET /api/accesos/live?_t=1778819908087 HTTP/1.1" 200 -
+[2026-05-15 00:38:28] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:28] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:33] "GET /api/accesos/live?_t=1778819913099 HTTP/1.1" 200 -
+[2026-05-15 00:38:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:33] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:38] "GET /api/accesos/live?_t=1778819918099 HTTP/1.1" 200 -
+[2026-05-15 00:38:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:38] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:39] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 00:38:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:39] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 00:38:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:39] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-15 00:38:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:39] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-15 00:38:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:38:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:39] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 00:38:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:43] "GET /api/accesos/live?_t=1778819923093 HTTP/1.1" 200 -
+[2026-05-15 00:38:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:48] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:48] "GET /api/accesos/live?_t=1778819928091 HTTP/1.1" 200 -
+[2026-05-15 00:38:48] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:48] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:55] "GET /api/accesos/live?_t=1778819935090 HTTP/1.1" 200 -
+[2026-05-15 00:38:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:55] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:38:56] WARNING in user: Auth: bad password for: anibalmonas124@gmail.com
+[2026-05-15 00:38:56] WARNING in auth: Login fallido: anibalmonas124@gmail.com
+[2026-05-15 00:38:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:56] "POST /login HTTP/1.1" 200 -
+[2026-05-15 00:38:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:38:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:38:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:39:14] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 00:39:14] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 00:39:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 00:39:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:14] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:39:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:39:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:39:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:14] "GET /api/accesos/live?_t=1778819954467 HTTP/1.1" 200 -
+[2026-05-15 00:39:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:16] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:39:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:39:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:39:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:55] "GET /api/accesos/live?_t=1778819995095 HTTP/1.1" 200 -
+[2026-05-15 00:39:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:39:55] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:40:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:40:24] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:40:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:40:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:40:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:40:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:40:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:40:55] "GET /api/accesos/live?_t=1778820055090 HTTP/1.1" 200 -
+[2026-05-15 00:40:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:40:55] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:41:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:41:19] "GET /api/accesos/live?_t=1778820079824 HTTP/1.1" 200 -
+[2026-05-15 00:41:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:41:20] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:41:29] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 00:41:29] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:41:30] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:30] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:30] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:41:30] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:41:37] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 00:41:37] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:41:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:38] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:38] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:41:38] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:41:43] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 00:41:43] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:41:44] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:44] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:44] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:41:44] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:41:46] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 00:41:46] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:41:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:41:47] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:41:47] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:42:25] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:25] "[32mGET /scanner/ HTTP/1.1[0m" 302 -
+[2026-05-15 00:42:25] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:25] "GET /login?next=http://127.0.0.1:5001/scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:42:26] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:26] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-15 00:42:26] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:26] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-15 00:42:26] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:26] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:42:26] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:26] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 00:42:26] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:26] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 00:42:32] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 00:42:32] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 00:42:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 00:42:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:32] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:42:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:42:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:42:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:33] "GET /api/accesos/live?_t=1778820153488 HTTP/1.1" 200 -
+[2026-05-15 00:42:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:42:33] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:33] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:42:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:37] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:42:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:42:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:42:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:42:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:37] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:42:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:53] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:53] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:53] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:53] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:42:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:42:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:43:06] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:06] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:43:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:16] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:43:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:43:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:43:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:16] "GET /api/accesos/live?_t=1778820196579 HTTP/1.1" 200 -
+[2026-05-15 00:43:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:16] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:43:16] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:16] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:43:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:20] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:43:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:43:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:43:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:20] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:43:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:43:20] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:44:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:03] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:44:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:03] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:04] "GET /api/accesos/live?_t=1778820244097 HTTP/1.1" 200 -
+[2026-05-15 00:44:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:04] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:44:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:04] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:44:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:09] "GET /api/accesos/live?_t=1778820249107 HTTP/1.1" 200 -
+[2026-05-15 00:44:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:09] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:44:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:14] "GET /api/accesos/live?_t=1778820254106 HTTP/1.1" 200 -
+[2026-05-15 00:44:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:14] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:44:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:19] "GET /mi-qr HTTP/1.1" 200 -
+[2026-05-15 00:44:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:19] "GET /static/qrcodes/qr_tNdzDkJGupV2jzhM.png HTTP/1.1" 200 -
+[2026-05-15 00:44:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:19] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:44:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:19] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:44:27] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\web_panel\\models\\access_log.py', reloading
+[2026-05-15 00:44:27] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:44:29] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:44:29] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:44:29] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:44:29] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:44:31] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\web_panel\\routes\\scanner.py', reloading
+[2026-05-15 00:44:31] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:44:32] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:44:32] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:44:32] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:44:32] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:44:33] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\web_panel\\models\\access_log.py', reloading
+[2026-05-15 00:44:34] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:44:35] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:44:35] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:44:35] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:44:35] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:44:41] INFO in email_service: ✅ QR email sent successfully to anibalmonas124@gmail.com
+[2026-05-15 00:44:41] INFO in dashboard: QR email sent=True for user 1
+[2026-05-15 00:44:41] INFO in dashboard: User 1 regenerated their QR code
+[2026-05-15 00:44:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:41] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-05-15 00:44:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:41] "GET /mi-qr HTTP/1.1" 200 -
+[2026-05-15 00:44:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:41] "GET /static/qrcodes/qr_znxzR64zCysBI761.png HTTP/1.1" 200 -
+[2026-05-15 00:44:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:44:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:42] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:44:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:57] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:44:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:44:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:57] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:44:58] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:44:58] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:24] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:24] "GET /api/accesos/live?_t=1778820324292 HTTP/1.1" 200 -
+[2026-05-15 00:45:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:24] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:24] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:27] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:27] "GET /api/accesos/live?_t=1778820327881 HTTP/1.1" 200 -
+[2026-05-15 00:45:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:27] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:41] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:45:41] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:45:42] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-15 00:45:42] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:45:42] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:45:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:45:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:45:43] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:45:43] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:45:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:43] "GET /api/accesos/live?_t=1778820342890 HTTP/1.1" 200 -
+[2026-05-15 00:45:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:45:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:43] "GET /login HTTP/1.1" 200 -
+[2026-05-15 00:45:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:44] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:44] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:44] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 00:45:50] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 00:45:50] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "GET /api/accesos/live?_t=1778820350812 HTTP/1.1" 200 -
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:50] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:50] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:45:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:53] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:45:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:45:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:45:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:45:53] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:46:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:23] "GET /mi-qr HTTP/1.1" 200 -
+[2026-05-15 00:46:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:23] "[36mGET /static/qrcodes/qr_znxzR64zCysBI761.png HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:24] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:46:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:24] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:46:31] INFO in email_service: ✅ QR email sent successfully to anibalmonas124@gmail.com
+[2026-05-15 00:46:31] INFO in dashboard: QR email sent=True for user 1
+[2026-05-15 00:46:31] INFO in dashboard: User 1 regenerated their QR code
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "[32mGET /mi-qr/regenerar HTTP/1.1[0m" 302 -
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "GET /mi-qr HTTP/1.1" 200 -
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "GET /static/qrcodes/qr_l1bsnNKwtE5tAndI.png HTTP/1.1" 200 -
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:46:31] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:31] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:46:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:38] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:46:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:38] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:46:38] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:38] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:46:51] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:51] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:46:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:46:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:52] "GET /api/accesos/live?_t=1778820412081 HTTP/1.1" 200 -
+[2026-05-15 00:46:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:52] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:46:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:52] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:46:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:57] "GET /api/accesos/live?_t=1778820417093 HTTP/1.1" 200 -
+[2026-05-15 00:46:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:46:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:02] "GET /api/accesos/live?_t=1778820422095 HTTP/1.1" 200 -
+[2026-05-15 00:47:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:07] "GET /api/accesos/live?_t=1778820427095 HTTP/1.1" 200 -
+[2026-05-15 00:47:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:12] "GET /api/accesos/live?_t=1778820432093 HTTP/1.1" 200 -
+[2026-05-15 00:47:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:17] "GET /api/accesos/live?_t=1778820437093 HTTP/1.1" 200 -
+[2026-05-15 00:47:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:22] "GET /api/accesos/live?_t=1778820442087 HTTP/1.1" 200 -
+[2026-05-15 00:47:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:27] "GET /api/accesos/live?_t=1778820447086 HTTP/1.1" 200 -
+[2026-05-15 00:47:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:32] "GET /api/accesos/live?_t=1778820452089 HTTP/1.1" 200 -
+[2026-05-15 00:47:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:37] "GET /api/accesos/live?_t=1778820457089 HTTP/1.1" 200 -
+[2026-05-15 00:47:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:42] "GET /api/accesos/live?_t=1778820462090 HTTP/1.1" 200 -
+[2026-05-15 00:47:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:47] "GET /api/accesos/live?_t=1778820467088 HTTP/1.1" 200 -
+[2026-05-15 00:47:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:52] "GET /api/accesos/live?_t=1778820472088 HTTP/1.1" 200 -
+[2026-05-15 00:47:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:47:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:57] "GET /api/accesos/live?_t=1778820477088 HTTP/1.1" 200 -
+[2026-05-15 00:47:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:47:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:02] "GET /api/accesos/live?_t=1778820482086 HTTP/1.1" 200 -
+[2026-05-15 00:48:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:07] "GET /api/accesos/live?_t=1778820487085 HTTP/1.1" 200 -
+[2026-05-15 00:48:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:12] "GET /api/accesos/live?_t=1778820492084 HTTP/1.1" 200 -
+[2026-05-15 00:48:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:12] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 00:48:12] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:48:13] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:48:13] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:48:13] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:48:13] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:48:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:17] "GET /api/accesos/live?_t=1778820497084 HTTP/1.1" 200 -
+[2026-05-15 00:48:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:21] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 00:48:21] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:48:22] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:48:22] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:48:23] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:48:23] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:48:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:23] "GET /api/accesos/live?_t=1778820502084 HTTP/1.1" 200 -
+[2026-05-15 00:48:23] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:23] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:27] "GET /api/accesos/live?_t=1778820507083 HTTP/1.1" 200 -
+[2026-05-15 00:48:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:32] "GET /api/accesos/live?_t=1778820512085 HTTP/1.1" 200 -
+[2026-05-15 00:48:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:37] "GET /api/accesos/live?_t=1778820517097 HTTP/1.1" 200 -
+[2026-05-15 00:48:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:42] "GET /api/accesos/live?_t=1778820522095 HTTP/1.1" 200 -
+[2026-05-15 00:48:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:47] "GET /api/accesos/live?_t=1778820527096 HTTP/1.1" 200 -
+[2026-05-15 00:48:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:52] "GET /api/accesos/live?_t=1778820532094 HTTP/1.1" 200 -
+[2026-05-15 00:48:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:48:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:57] "GET /api/accesos/live?_t=1778820537093 HTTP/1.1" 200 -
+[2026-05-15 00:48:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:48:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:02] "GET /api/accesos/live?_t=1778820542093 HTTP/1.1" 200 -
+[2026-05-15 00:49:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:07] "GET /api/accesos/live?_t=1778820547092 HTTP/1.1" 200 -
+[2026-05-15 00:49:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:12] "GET /api/accesos/live?_t=1778820552091 HTTP/1.1" 200 -
+[2026-05-15 00:49:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:17] "GET /api/accesos/live?_t=1778820557091 HTTP/1.1" 200 -
+[2026-05-15 00:49:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:22] "GET /api/accesos/live?_t=1778820562089 HTTP/1.1" 200 -
+[2026-05-15 00:49:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:27] "GET /api/accesos/live?_t=1778820567088 HTTP/1.1" 200 -
+[2026-05-15 00:49:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:32] "GET /api/accesos/live?_t=1778820572088 HTTP/1.1" 200 -
+[2026-05-15 00:49:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:37] "GET /api/accesos/live?_t=1778820577086 HTTP/1.1" 200 -
+[2026-05-15 00:49:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:42] "GET /api/accesos/live?_t=1778820582087 HTTP/1.1" 200 -
+[2026-05-15 00:49:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:47] "GET /api/accesos/live?_t=1778820587086 HTTP/1.1" 200 -
+[2026-05-15 00:49:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:52] "GET /api/accesos/live?_t=1778820592085 HTTP/1.1" 200 -
+[2026-05-15 00:49:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:49:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:57] "GET /api/accesos/live?_t=1778820597083 HTTP/1.1" 200 -
+[2026-05-15 00:49:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:49:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:02] "GET /api/accesos/live?_t=1778820602083 HTTP/1.1" 200 -
+[2026-05-15 00:50:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:07] "GET /api/accesos/live?_t=1778820607083 HTTP/1.1" 200 -
+[2026-05-15 00:50:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:12] "GET /api/accesos/live?_t=1778820612095 HTTP/1.1" 200 -
+[2026-05-15 00:50:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:17] "GET /api/accesos/live?_t=1778820617097 HTTP/1.1" 200 -
+[2026-05-15 00:50:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:22] "GET /api/accesos/live?_t=1778820622097 HTTP/1.1" 200 -
+[2026-05-15 00:50:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:27] "GET /api/accesos/live?_t=1778820627096 HTTP/1.1" 200 -
+[2026-05-15 00:50:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:32] "GET /api/accesos/live?_t=1778820632093 HTTP/1.1" 200 -
+[2026-05-15 00:50:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:37] "GET /api/accesos/live?_t=1778820637094 HTTP/1.1" 200 -
+[2026-05-15 00:50:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:42] "GET /api/accesos/live?_t=1778820642094 HTTP/1.1" 200 -
+[2026-05-15 00:50:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:47] "GET /api/accesos/live?_t=1778820647092 HTTP/1.1" 200 -
+[2026-05-15 00:50:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:52] "GET /api/accesos/live?_t=1778820652091 HTTP/1.1" 200 -
+[2026-05-15 00:50:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:50:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:57] "GET /api/accesos/live?_t=1778820657091 HTTP/1.1" 200 -
+[2026-05-15 00:50:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:50:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:02] "GET /api/accesos/live?_t=1778820662091 HTTP/1.1" 200 -
+[2026-05-15 00:51:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:07] "GET /api/accesos/live?_t=1778820667089 HTTP/1.1" 200 -
+[2026-05-15 00:51:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:12] "GET /api/accesos/live?_t=1778820672090 HTTP/1.1" 200 -
+[2026-05-15 00:51:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:17] "GET /api/accesos/live?_t=1778820677089 HTTP/1.1" 200 -
+[2026-05-15 00:51:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:22] "GET /api/accesos/live?_t=1778820682087 HTTP/1.1" 200 -
+[2026-05-15 00:51:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:27] "GET /api/accesos/live?_t=1778820687086 HTTP/1.1" 200 -
+[2026-05-15 00:51:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:32] "GET /api/accesos/live?_t=1778820692086 HTTP/1.1" 200 -
+[2026-05-15 00:51:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:37] "GET /api/accesos/live?_t=1778820697085 HTTP/1.1" 200 -
+[2026-05-15 00:51:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:42] "GET /api/accesos/live?_t=1778820702084 HTTP/1.1" 200 -
+[2026-05-15 00:51:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:47] "GET /api/accesos/live?_t=1778820707084 HTTP/1.1" 200 -
+[2026-05-15 00:51:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:52] "GET /api/accesos/live?_t=1778820712083 HTTP/1.1" 200 -
+[2026-05-15 00:51:52] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:51:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:57] "GET /api/accesos/live?_t=1778820717083 HTTP/1.1" 200 -
+[2026-05-15 00:51:57] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:51:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:52:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:02] "GET /api/accesos/live?_t=1778820722085 HTTP/1.1" 200 -
+[2026-05-15 00:52:02] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:52:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:07] "GET /api/accesos/live?_t=1778820727097 HTTP/1.1" 200 -
+[2026-05-15 00:52:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:52:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:12] "GET /api/accesos/live?_t=1778820732094 HTTP/1.1" 200 -
+[2026-05-15 00:52:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:52:26] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:52:26] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:52:27] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-15 00:52:27] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:52:27] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:52:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:52:28] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:52:28] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:52:28] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:52:28] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:28] "GET /api/accesos/live?_t=1778820747094 HTTP/1.1" 200 -
+[2026-05-15 00:52:28] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:28] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:52:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:32] "GET /api/accesos/live?_t=1778820752093 HTTP/1.1" 200 -
+[2026-05-15 00:52:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:52:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:34] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:52:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:52:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:52:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:34] "GET /api/accesos/live?_t=1778820754394 HTTP/1.1" 200 -
+[2026-05-15 00:52:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:34] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:52:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:34] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:52:36] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:36] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:52:36] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:52:36] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:52:36] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:36] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:52:36] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:36] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:52:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:54] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:55] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:55] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:52:56] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:52:56] "[35m[1mPOST /scanner/validate HTTP/1.1[0m" 500 -
+[2026-05-15 00:53:29] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\web_panel\\models\\access_log.py', reloading
+[2026-05-15 00:53:29] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:53:30] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:53:30] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:53:30] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:53:30] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:53:42] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\web_panel\\models\\access_log.py', reloading
+[2026-05-15 00:53:42] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:53:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:53:43] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:53:43] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:53:43] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:56:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:56:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:56:40] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-15 00:56:40] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:56:40] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:56:41] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:56:41] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:56:41] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:56:41] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:56:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:41] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:56:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:41] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:41] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:56:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:42] "GET /login HTTP/1.1" 200 -
+[2026-05-15 00:56:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:43] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:43] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:43] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:43] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 00:56:49] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 00:56:49] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "GET /api/accesos/live?_t=1778821009761 HTTP/1.1" 200 -
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:49] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:56:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:53] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:56:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:56:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:56:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:56:53] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:09] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:10] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:10] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:57:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:13] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:57:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:57:13] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:13] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:14] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:14] "GET /api/accesos/live?_t=1778821034570 HTTP/1.1" 200 -
+[2026-05-15 00:57:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:57:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:14] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:19] "GET /api/accesos/live?_t=1778821039572 HTTP/1.1" 200 -
+[2026-05-15 00:57:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:19] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:57:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:20] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:57:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:20] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:57:20] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:20] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:44] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:44] "GET /api/accesos/live?_t=1778821064377 HTTP/1.1" 200 -
+[2026-05-15 00:57:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:44] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:57:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:44] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:57:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:46] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 00:57:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:57:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:57:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:57:46] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:58:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:04] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:58:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:04] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:58:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:04] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:58:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:04] "POST /scanner/validate HTTP/1.1" 200 -
+[2026-05-15 00:58:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:07] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:58:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:58:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:58:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:07] "GET /api/accesos/live?_t=1778821087127 HTTP/1.1" 200 -
+[2026-05-15 00:58:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:58:07] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:07] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:58:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:12] "GET /api/accesos/live?_t=1778821092137 HTTP/1.1" 200 -
+[2026-05-15 00:58:12] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:58:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:17] "GET /api/accesos/live?_t=1778821097137 HTTP/1.1" 200 -
+[2026-05-15 00:58:17] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:58:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:59:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:59:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:59:13] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-15 00:59:13] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 00:59:13] INFO in _internal:  * Restarting with stat
+[2026-05-15 00:59:14] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:59:14] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 00:59:14] WARNING in _internal:  * Debugger is active!
+[2026-05-15 00:59:14] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 00:59:26] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:26] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:59:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:59:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:59:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:27] "GET /api/accesos/live?_t=1778821167158 HTTP/1.1" 200 -
+[2026-05-15 00:59:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:27] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:59:27] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:27] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:59:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:32] "GET /api/accesos/live?_t=1778821172159 HTTP/1.1" 200 -
+[2026-05-15 00:59:32] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:59:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:37] "GET /api/accesos/live?_t=1778821177159 HTTP/1.1" 200 -
+[2026-05-15 00:59:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:59:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:42] "GET /api/accesos/live?_t=1778821182173 HTTP/1.1" 200 -
+[2026-05-15 00:59:42] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:59:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:47] "GET /api/accesos/live?_t=1778821187159 HTTP/1.1" 200 -
+[2026-05-15 00:59:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:59:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:49] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:59:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 00:59:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 00:59:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:49] "GET /api/accesos/live?_t=1778821189761 HTTP/1.1" 200 -
+[2026-05-15 00:59:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:49] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 00:59:49] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:49] "GET / HTTP/1.1" 200 -
+[2026-05-15 00:59:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:54] "GET /api/accesos/live?_t=1778821194772 HTTP/1.1" 200 -
+[2026-05-15 00:59:54] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:54] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 00:59:59] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:59] "GET /api/accesos/live?_t=1778821199771 HTTP/1.1" 200 -
+[2026-05-15 00:59:59] INFO in _internal: 127.0.0.1 - - [15/May/2026 00:59:59] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:04] "GET /api/accesos/live?_t=1778821204770 HTTP/1.1" 200 -
+[2026-05-15 01:00:04] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:04] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:09] "GET /api/accesos/live?_t=1778821209770 HTTP/1.1" 200 -
+[2026-05-15 01:00:09] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:09] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:14] "GET /api/accesos/live?_t=1778821214763 HTTP/1.1" 200 -
+[2026-05-15 01:00:14] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:14] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:19] "GET /api/accesos/live?_t=1778821219769 HTTP/1.1" 200 -
+[2026-05-15 01:00:19] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:19] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:24] "GET /api/accesos/live?_t=1778821224767 HTTP/1.1" 200 -
+[2026-05-15 01:00:24] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:24] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:29] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:29] "GET /api/accesos/live?_t=1778821229766 HTTP/1.1" 200 -
+[2026-05-15 01:00:29] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:29] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:34] "GET /api/accesos/live?_t=1778821234766 HTTP/1.1" 200 -
+[2026-05-15 01:00:34] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:34] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:39] "GET /api/accesos/live?_t=1778821239767 HTTP/1.1" 200 -
+[2026-05-15 01:00:39] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:39] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:44] "GET /api/accesos/live?_t=1778821244778 HTTP/1.1" 200 -
+[2026-05-15 01:00:44] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:44] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:45] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:45] "GET / HTTP/1.1" 200 -
+[2026-05-15 01:00:45] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 01:00:45] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 01:00:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:46] "GET /api/accesos/live?_t=1778821246070 HTTP/1.1" 200 -
+[2026-05-15 01:00:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:46] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 01:00:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:46] "GET / HTTP/1.1" 200 -
+[2026-05-15 01:00:51] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:51] "GET /api/accesos/live?_t=1778821251074 HTTP/1.1" 200 -
+[2026-05-15 01:00:51] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:51] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 01:00:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:53] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 01:00:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 01:00:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 01:00:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:53] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 01:00:53] INFO in _internal: 127.0.0.1 - - [15/May/2026 01:00:53] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:09:36] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:09:36] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:09:36] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-15 11:09:36] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 11:09:36] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:09:37] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:09:37] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:09:37] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:09:37] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:09:45] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:45] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:46] "[32mGET /scanner/ HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:46] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:46] "GET /login?next=http://127.0.0.1:5001/scanner/ HTTP/1.1" 200 -
+[2026-05-15 11:09:46] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:46] "GET /login?next=http://192.168.50.103:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:09:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:09:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:09:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:09:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:09:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:47] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:47] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:47] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:47] "GET /login?next=http://192.168.50.103:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:09:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:47] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:47] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:09:47] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:09:56] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 11:09:56] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "GET /api/accesos/live?_t=1778857796497 HTTP/1.1" 200 -
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:09:56] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:09:56] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:10:00] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:00] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 11:10:00] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:10:00] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:10:00] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:00] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:10:00] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:00] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:10:25] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:25] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 11:10:25] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:10:25] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:10:25] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:10:25] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:25] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:10:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:37] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:10:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:10:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:10:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:37] "GET /api/accesos/live?_t=1778857837595 HTTP/1.1" 200 -
+[2026-05-15 11:10:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:10:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:37] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:10:43] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:43] "GET /api/accesos/live?_t=1778857843214 HTTP/1.1" 200 -
+[2026-05-15 11:10:43] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:10:48] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:48] "GET /api/accesos/live?_t=1778857848214 HTTP/1.1" 200 -
+[2026-05-15 11:10:48] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:48] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:10:53] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:53] "GET /api/accesos/live?_t=1778857853208 HTTP/1.1" 200 -
+[2026-05-15 11:10:53] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:53] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:10:58] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:58] "GET /api/accesos/live?_t=1778857858210 HTTP/1.1" 200 -
+[2026-05-15 11:10:58] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:10:58] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:03] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:03] "GET /api/accesos/live?_t=1778857863208 HTTP/1.1" 200 -
+[2026-05-15 11:11:03] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:03] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:07] "GET /api/accesos/live?_t=1778857867599 HTTP/1.1" 200 -
+[2026-05-15 11:11:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:12] "GET /api/accesos/live?_t=1778857872596 HTTP/1.1" 200 -
+[2026-05-15 11:11:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:17] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:17] "GET /api/accesos/live?_t=1778857877609 HTTP/1.1" 200 -
+[2026-05-15 11:11:17] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:22] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:22] "GET /api/accesos/live?_t=1778857882605 HTTP/1.1" 200 -
+[2026-05-15 11:11:22] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:27] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:27] "GET /api/accesos/live?_t=1778857887599 HTTP/1.1" 200 -
+[2026-05-15 11:11:27] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:32] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:32] "GET /api/accesos/live?_t=1778857892607 HTTP/1.1" 200 -
+[2026-05-15 11:11:32] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:38] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:38] "GET /api/accesos/live?_t=1778857898213 HTTP/1.1" 200 -
+[2026-05-15 11:11:38] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:38] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:43] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:43] "GET /api/accesos/live?_t=1778857903203 HTTP/1.1" 200 -
+[2026-05-15 11:11:43] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:48] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:48] "GET /api/accesos/live?_t=1778857908205 HTTP/1.1" 200 -
+[2026-05-15 11:11:48] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:48] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:53] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:53] "GET /api/accesos/live?_t=1778857913201 HTTP/1.1" 200 -
+[2026-05-15 11:11:53] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:53] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:11:58] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:58] "GET /api/accesos/live?_t=1778857918203 HTTP/1.1" 200 -
+[2026-05-15 11:11:58] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:11:58] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:03] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:03] "GET /api/accesos/live?_t=1778857923212 HTTP/1.1" 200 -
+[2026-05-15 11:12:03] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:03] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:08] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:08] "GET /api/accesos/live?_t=1778857928208 HTTP/1.1" 200 -
+[2026-05-15 11:12:08] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:08] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:13] "GET /api/accesos/live?_t=1778857933210 HTTP/1.1" 200 -
+[2026-05-15 11:12:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:13] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:18] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:18] "GET /api/accesos/live?_t=1778857938212 HTTP/1.1" 200 -
+[2026-05-15 11:12:18] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:18] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:23] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:23] "GET /api/accesos/live?_t=1778857943212 HTTP/1.1" 200 -
+[2026-05-15 11:12:23] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:23] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:28] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:28] "GET /api/accesos/live?_t=1778857948200 HTTP/1.1" 200 -
+[2026-05-15 11:12:28] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:28] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:33] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:33] "GET /api/accesos/live?_t=1778857953199 HTTP/1.1" 200 -
+[2026-05-15 11:12:33] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:33] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:12:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:52] "GET /api/accesos/live?_t=1778857972204 HTTP/1.1" 200 -
+[2026-05-15 11:12:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:12:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:13:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:13:52] "GET /api/accesos/live?_t=1778858032213 HTTP/1.1" 200 -
+[2026-05-15 11:13:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:13:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:15] "GET /api/accesos/live?_t=1778858055811 HTTP/1.1" 200 -
+[2026-05-15 11:14:15] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:15] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:18] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:18] "GET /api/accesos/live?_t=1778858058214 HTTP/1.1" 200 -
+[2026-05-15 11:14:18] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:18] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:23] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:23] "GET /api/accesos/live?_t=1778858063209 HTTP/1.1" 200 -
+[2026-05-15 11:14:23] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:23] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:28] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:28] "GET /api/accesos/live?_t=1778858068212 HTTP/1.1" 200 -
+[2026-05-15 11:14:28] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:28] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:33] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:33] "GET /api/accesos/live?_t=1778858073211 HTTP/1.1" 200 -
+[2026-05-15 11:14:33] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:33] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:38] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:38] "GET /api/accesos/live?_t=1778858078201 HTTP/1.1" 200 -
+[2026-05-15 11:14:38] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:38] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:43] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:43] "GET /api/accesos/live?_t=1778858083210 HTTP/1.1" 200 -
+[2026-05-15 11:14:43] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:43] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:48] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:48] "GET /api/accesos/live?_t=1778858088209 HTTP/1.1" 200 -
+[2026-05-15 11:14:48] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:48] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:53] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:53] "GET /api/accesos/live?_t=1778858093200 HTTP/1.1" 200 -
+[2026-05-15 11:14:53] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:53] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:14:58] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:58] "GET /api/accesos/live?_t=1778858098203 HTTP/1.1" 200 -
+[2026-05-15 11:14:58] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:14:58] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:15:03] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:03] "GET /api/accesos/live?_t=1778858103205 HTTP/1.1" 200 -
+[2026-05-15 11:15:03] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:03] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:15:08] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:08] "GET /api/accesos/live?_t=1778858108204 HTTP/1.1" 200 -
+[2026-05-15 11:15:08] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:08] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:15:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:13] "GET /api/accesos/live?_t=1778858113205 HTTP/1.1" 200 -
+[2026-05-15 11:15:13] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:13] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:15:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:52] "GET /api/accesos/live?_t=1778858152206 HTTP/1.1" 200 -
+[2026-05-15 11:15:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:15:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:16:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:16:51] "GET /api/accesos/live?_t=1778858210995 HTTP/1.1" 200 -
+[2026-05-15 11:16:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:16:51] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:17:10] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\__init__.py', reloading
+[2026-05-15 11:17:10] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:17:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:12] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:17:12] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:17:15] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\__init__.py', reloading
+[2026-05-15 11:17:16] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:17:17] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:17] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:17] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:17:17] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:17:30] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-15 11:17:30] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:17:32] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:32] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:32] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:17:32] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:17:47] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 11:17:47] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:17:48] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:48] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:48] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:17:48] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:17:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:17:51] "GET /api/accesos/live?_t=1778858270992 HTTP/1.1" 200 -
+[2026-05-15 11:17:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:17:51] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:17:51] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 11:17:51] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:17:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:17:52] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:17:52] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:18:50] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-15 11:18:50] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:18:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:18:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:18:51] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:18:51] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:18:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:18:51] "GET /api/accesos/live?_t=1778858330997 HTTP/1.1" 200 -
+[2026-05-15 11:18:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:18:51] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:18:53] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 11:18:53] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:18:55] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:18:55] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:18:55] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:18:55] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:18:58] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-15 11:18:58] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:18:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:18:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:18:59] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:18:59] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:19:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:19:51] "GET /api/accesos/live?_t=1778858390993 HTTP/1.1" 200 -
+[2026-05-15 11:19:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:19:51] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:08] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:08] "GET /api/accesos/live?_t=1778858406873 HTTP/1.1" 200 -
+[2026-05-15 11:20:08] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:08] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:12] "GET /api/accesos/live?_t=1778858411996 HTTP/1.1" 200 -
+[2026-05-15 11:20:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:16] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:16] "GET /api/accesos/live?_t=1778858416989 HTTP/1.1" 200 -
+[2026-05-15 11:20:17] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:22] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:22] "GET /api/accesos/live?_t=1778858421995 HTTP/1.1" 200 -
+[2026-05-15 11:20:22] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:27] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:27] "GET /api/accesos/live?_t=1778858426995 HTTP/1.1" 200 -
+[2026-05-15 11:20:27] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:32] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:32] "GET /api/accesos/live?_t=1778858432012 HTTP/1.1" 200 -
+[2026-05-15 11:20:32] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:37] "GET /api/accesos/live?_t=1778858437004 HTTP/1.1" 200 -
+[2026-05-15 11:20:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:42] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:42] "GET /api/accesos/live?_t=1778858442010 HTTP/1.1" 200 -
+[2026-05-15 11:20:42] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:47] "GET /api/accesos/live?_t=1778858447002 HTTP/1.1" 200 -
+[2026-05-15 11:20:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:52] "GET /api/accesos/live?_t=1778858451991 HTTP/1.1" 200 -
+[2026-05-15 11:20:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:20:57] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:57] "GET /api/accesos/live?_t=1778858456991 HTTP/1.1" 200 -
+[2026-05-15 11:20:57] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:20:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:02] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:02] "GET /api/accesos/live?_t=1778858461990 HTTP/1.1" 200 -
+[2026-05-15 11:21:02] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:09] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:09] "GET /api/accesos/live?_t=1778858466387 HTTP/1.1" 200 -
+[2026-05-15 11:21:09] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:09] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:12] "GET /api/accesos/live?_t=1778858471990 HTTP/1.1" 200 -
+[2026-05-15 11:21:12] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:12] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:17] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:17] "GET /api/accesos/live?_t=1778858477004 HTTP/1.1" 200 -
+[2026-05-15 11:21:17] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:17] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:22] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:22] "GET /api/accesos/live?_t=1778858482002 HTTP/1.1" 200 -
+[2026-05-15 11:21:22] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:22] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:27] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:27] "GET /api/accesos/live?_t=1778858487002 HTTP/1.1" 200 -
+[2026-05-15 11:21:27] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:27] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:32] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:32] "GET /api/accesos/live?_t=1778858492001 HTTP/1.1" 200 -
+[2026-05-15 11:21:32] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:32] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:37] "GET /api/accesos/live?_t=1778858497001 HTTP/1.1" 200 -
+[2026-05-15 11:21:37] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:37] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:42] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:42] "GET /api/accesos/live?_t=1778858501999 HTTP/1.1" 200 -
+[2026-05-15 11:21:42] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:42] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:47] "GET /api/accesos/live?_t=1778858506999 HTTP/1.1" 200 -
+[2026-05-15 11:21:47] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:47] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:52] "GET /api/accesos/live?_t=1778858512002 HTTP/1.1" 200 -
+[2026-05-15 11:21:52] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:52] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:21:57] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:57] "GET /api/accesos/live?_t=1778858517000 HTTP/1.1" 200 -
+[2026-05-15 11:21:57] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:21:57] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:22:02] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:22:02] "GET /api/accesos/live?_t=1778858521996 HTTP/1.1" 200 -
+[2026-05-15 11:22:02] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:22:02] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:22:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:22:07] "GET /api/accesos/live?_t=1778858526994 HTTP/1.1" 200 -
+[2026-05-15 11:22:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:22:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:22:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:22:51] "GET /api/accesos/live?_t=1778858571004 HTTP/1.1" 200 -
+[2026-05-15 11:22:51] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:22:51] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:23:04] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:23:04] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:23:05] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.58.48.199:5001
+[2026-05-15 11:23:05] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-15 11:23:05] INFO in _internal:  * Restarting with stat
+[2026-05-15 11:23:06] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:23:06] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-15 11:23:07] WARNING in _internal:  * Debugger is active!
+[2026-05-15 11:23:07] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET /api/accesos/live?_t=1778858584052 HTTP/1.1" 200 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET /api/accesos/live?_t=1778858586387 HTTP/1.1" 200 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET /api/accesos/live?_t=1778858587487 HTTP/1.1" 200 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:23:07] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:07] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:23:09] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:09] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 11:23:09] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:23:10] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:23:10] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:10] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:23:10] INFO in _internal: 192.168.50.103 - - [15/May/2026 11:23:10] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:24:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:22] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 11:24:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:22] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:24:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:24:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:24:22] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:22] "GET /login?next=http://127.0.0.1:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:24:35] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 11:24:35] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 11:24:35] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 11:24:35] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:35] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:24:35] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:24:35] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:24:36] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:36] "GET /api/accesos/live?_t=1778858676118 HTTP/1.1" 200 -
+[2026-05-15 11:24:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:37] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 11:24:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:24:37] INFO in _internal: 127.0.0.1 - - [15/May/2026 11:24:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:25:18] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:18] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 11:25:18] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:18] "GET /login?next=http://10.58.48.199:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:25:19] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:19] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-15 11:25:19] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:19] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-15 11:25:19] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:19] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:25:19] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:19] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-15 11:25:19] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:19] "GET /login?next=http://10.58.48.199:5001/ HTTP/1.1" 200 -
+[2026-05-15 11:25:29] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-15 11:25:29] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-15 11:25:29] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-15 11:25:29] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:29] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:25:29] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:25:29] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:25:30] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:30] "GET /api/accesos/live?_t=1778858730237 HTTP/1.1" 200 -
+[2026-05-15 11:25:30] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:30] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:25:30] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:30] "GET / HTTP/1.1" 200 -
+[2026-05-15 11:25:33] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:33] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-15 11:25:33] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-15 11:25:33] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-15 11:25:33] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:33] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-15 11:25:33] INFO in _internal: 10.58.48.199 - - [15/May/2026 11:25:33] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:09:57] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-16 20:09:57] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-16 20:09:57] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:09:57] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:09:58] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-16 20:09:58] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-16 20:09:58] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:09:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:09:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:09:59] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:09:59] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:10:07] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:07] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:07] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:07] "GET /login?next=http://192.168.50.103:5001/ HTTP/1.1" 200 -
+[2026-05-16 20:10:08] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:08] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-16 20:10:08] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:08] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-16 20:10:08] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:08] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:08] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:08] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:08] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:08] "GET /login?next=http://192.168.50.103:5001/ HTTP/1.1" 200 -
+[2026-05-16 20:10:14] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-16 20:10:14] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "GET /api/accesos/live?_t=1778976614588 HTTP/1.1" 200 -
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:14] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:14] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:19] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:19] "GET /api/accesos/live?_t=1778976619590 HTTP/1.1" 200 -
+[2026-05-16 20:10:19] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:19] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-16 20:10:24] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:24] "GET /api/accesos/live?_t=1778976624607 HTTP/1.1" 200 -
+[2026-05-16 20:10:24] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:24] "GET /api/stats HTTP/1.1" 200 -
+[2026-05-16 20:10:25] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:25] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-16 20:10:25] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:25] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:25] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:25] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:25] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:25] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:32] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:32] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:32] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:32] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:32] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:32] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:32] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:32] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:36] INFO in admin: Admin deleted user 12 (Administrador)
+[2026-05-16 20:10:36] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:36] "[32mPOST /admin/usuarios/12/eliminar HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:36] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:36] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:36] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:36] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:37] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:37] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:37] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:37] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:39] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:39] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:40] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:40] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:41] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:41] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:42] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:42] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:42] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:42] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:43] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:43] "GET /api/accesos/live?_t=1778976643068 HTTP/1.1" 200 -
+[2026-05-16 20:10:43] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:43] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:43] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:43] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:43] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:43] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-16 20:10:44] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:44] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:10:44] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:44] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:44] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:44] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "[32mGET /scanner/ HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "GET /login?next=http://192.168.50.103:5001/scanner/ HTTP/1.1" 200 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-05-16 20:10:56] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:10:56] "GET /login?next=http://192.168.50.103:5001/ HTTP/1.1" 200 -
+[2026-05-16 20:11:02] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-05-16 20:11:02] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "GET /api/accesos/live?_t=1778976662805 HTTP/1.1" 200 -
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:11:02] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:02] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:11:05] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:05] "GET /admin/usuarios HTTP/1.1" 200 -
+[2026-05-16 20:11:05] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:11:05] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "GET /scanner/ HTTP/1.1" 200 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-05-16 20:11:06] INFO in _internal: 192.168.50.103 - - [16/May/2026 20:11:06] "GET / HTTP/1.1" 200 -
+[2026-05-16 20:12:36] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:12:36] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:12:39] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-16 20:12:39] INFO in app: ✅ Admin user created: admin@qraccess.com / admin123
+[2026-05-16 20:12:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:12:39] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:12:39] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:12:39] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:12:49] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\scanner_fisico.py', reloading
+[2026-05-16 20:12:49] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:12:50] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:12:50] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:12:50] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:12:50] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:12:57] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:12:57] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:12:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:12:59] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:12:59] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:12:59] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:13:11] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:13:11] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:13:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:13:12] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:13:12] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:13:12] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:13:13] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:13:13] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:13:14] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:13:14] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:13:14] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:13:14] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:15:29] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:15:29] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:15:30] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:15:30] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:15:30] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:15:30] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:15:50] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:15:50] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:15:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:15:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:15:51] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:15:51] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:16:07] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:16:07] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:16:08] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:08] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:08] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:16:08] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:16:14] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:16:14] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:16:15] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:15] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:15] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:16:15] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:16:45] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:45] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:46] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.50.103:5001
+[2026-05-16 20:16:46] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-05-16 20:16:46] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:16:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:47] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:16:47] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:16:47] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:17:50] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:17:50] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:17:51] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:17:51] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:17:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:17:51] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:17:51] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:17:51] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:17:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:17:52] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:17:52] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:17:52] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:18:01] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:18:01] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:18:01] INFO in _internal:  * Detected change in 'C:\\Users\\Anibal\\Proyectos_GitHub\\QR_Access_PROPC\\scanner\\physical.py', reloading
+[2026-05-16 20:18:01] INFO in _internal:  * Restarting with stat
+[2026-05-16 20:18:02] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:18:02] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:18:02] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:18:02] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-05-16 20:18:02] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:18:02] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-05-16 20:18:02] WARNING in _internal:  * Debugger is active!
+[2026-05-16 20:18:02] INFO in _internal:  * Debugger PIN: 793-032-965
+[2026-08-12 13:55:36] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-08-12 13:55:36] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-08-12 13:55:37] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.58.48.126:5001
+[2026-08-12 13:55:37] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2026-08-12 13:55:37] INFO in _internal:  * Restarting with stat
+[2026-08-12 13:55:37] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-08-12 13:55:37] INFO in app: 🚀 QR Access Control PRO initialized successfully
+[2026-08-12 13:55:37] WARNING in _internal:  * Debugger is active!
+[2026-08-12 13:55:37] INFO in _internal:  * Debugger PIN: 143-323-308
+[2026-08-12 13:55:42] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:42] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-08-12 13:55:42] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:42] "GET /login?next=http://localhost:5001/ HTTP/1.1" 200 -
+[2026-08-12 13:55:42] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-08-12 13:55:42] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-08-12 13:55:42] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:42] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-08-12 13:55:42] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:42] "GET /login?next=http://localhost:5001/ HTTP/1.1" 200 -
+[2026-08-12 13:55:47] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:47] "GET /login?next=http://localhost:5001/ HTTP/1.1" 200 -
+[2026-08-12 13:55:47] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:47] "GET /static/css/style.css HTTP/1.1" 200 -
+[2026-08-12 13:55:48] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:48] "GET /static/js/main.js HTTP/1.1" 200 -
+[2026-08-12 13:55:54] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:54] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-08-12 13:55:54] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:54] "[32mGET / HTTP/1.1[0m" 302 -
+[2026-08-12 13:55:54] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:55:54] "GET /login?next=http://localhost:5001/ HTTP/1.1" 200 -
+[2026-08-12 13:56:02] INFO in user: Auth: success for: anibalmonas124@gmail.com
+[2026-08-12 13:56:02] INFO in auth: Login exitoso: anibalmonas124@gmail.com
+[2026-08-12 13:56:02] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2026-08-12 13:56:02] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:02] "GET / HTTP/1.1" 200 -
+[2026-08-12 13:56:02] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2026-08-12 13:56:02] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2026-08-12 13:56:07] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:07] "GET /api/accesos/live?_t=1786557367935 HTTP/1.1" 200 -
+[2026-08-12 13:56:08] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:08] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+[2026-08-12 13:56:08] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:08] "GET / HTTP/1.1" 200 -
+[2026-08-12 13:56:12] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:12] "GET /api/accesos/live?_t=1786557372941 HTTP/1.1" 200 -
+[2026-08-12 13:56:13] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:13] "GET /api/stats HTTP/1.1" 200 -
+[2026-08-12 13:56:18] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:18] "GET /api/accesos/live?_t=1786557377940 HTTP/1.1" 200 -
+[2026-08-12 13:56:18] INFO in _internal: 127.0.0.1 - - [12/Aug/2026 13:56:18] "GET /api/stats HTTP/1.1" 200 -

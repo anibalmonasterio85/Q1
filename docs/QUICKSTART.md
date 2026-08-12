@@ -99,7 +99,7 @@ QR_Access_PROPC/
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile             # Docker image
 ├── docker-compose.yml     # Docker Compose config
-├── nginx.conf             # Nginx config
+├── deployment/nginx.conf  # Nginx config
 ├── .env.example           # Environment template
 └── README.md              # Documentation
 ```

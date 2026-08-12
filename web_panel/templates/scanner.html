@@ -6,12 +6,23 @@
 {% block content %}
 <div class="scanner-container">
     <div class="card slide-up">
-        <div class="chart-title" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="chart-title" style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;">
             <span>Lector de Código QR</span>
-            <span class="badge badge-info" id="cam-status">Cámara Inactiva</span>
+            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                <button class="btn btn-primary btn-sm" id="btn-start-header">Iniciar Cámara</button>
+                <span class="badge badge-info" id="cam-status">Cámara Inactiva</span>
+            </div>
         </div>
         
-        <div style="background: #000; border-radius: var(--radius-sm); position: relative; overflow: hidden; margin: 20px 0;">
+            <div style="background: #000; border-radius: var(--radius-sm); position: relative; overflow: hidden; margin: 20px 0;">
+            <div style="position: absolute; right: 12px; top: 12px; z-index: 20; display:flex; gap:8px; align-items:center;">
+                <select id="camera-select" style="background: rgba(255,255,255,0.06); color:var(--text); border: none; padding:6px 8px; border-radius:6px;">
+                    <option value="">Detectando cámaras...</option>
+                </select>
+                <label for="file-input" class="btn btn-outline" style="padding:6px 10px;">Subir imagen</label>
+                <input id="file-input" type="file" accept="image/*" style="display:none;">
+            </div>
+
             <div id="reader"></div>
             
             <div id="scanner-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.5); z-index: 10; cursor: pointer;">
@@ -21,6 +32,9 @@
 
         <div class="filter-footer" style="justify-content: center;">
             <button class="btn btn-danger" id="btn-stop" style="display: none;">Detener Escáner</button>
+        </div>
+        <div id="permission-notice" style="text-align: center; color: var(--text-muted); margin-top: 8px; font-size: 0.95rem;">
+            Presiona "Iniciar Cámara" para solicitar acceso. Si está bloqueada, abre el candado junto a la URL y permite la cámara.
         </div>
 
         <div id="result-panel" class="scanner-status idle">
@@ -54,6 +68,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const html5QrCode = new Html5Qrcode("reader");
     const btnStart = document.getElementById('btn-start');
+    const cameraSelect = document.getElementById('camera-select');
+    const fileInput = document.getElementById('file-input');
+    const btnStartHeader = document.getElementById('btn-start-header');
     const btnStop = document.getElementById('btn-stop');
     const scannerOverlay = document.getElementById('scanner-overlay');
     const resultPanel = document.getElementById('result-panel');
@@ -61,38 +78,143 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const lastScanPanel = document.getElementById('last-scan-details');
     const noScanMsg = document.getElementById('no-scan-msg');
+    const permissionNotice = document.getElementById('permission-notice');
     
     let isScanning = false;
+    let currentDeviceId = null;
+
+    const updateStartButtons = (disabled) => {
+        btnStart.disabled = disabled;
+        btnStartHeader.disabled = disabled;
+    };
+
+    const setPermissionNotice = (text, type = 'info') => {
+        permissionNotice.textContent = text;
+        permissionNotice.style.color = type === 'error' ? 'var(--danger)' : 'var(--text-muted)';
+    };
+
+    const requestCameraPermission = async () => {
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            return false;
+        }
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+            stream.getTracks().forEach(track => track.stop());
+            return true;
+        } catch (err) {
+            return false;
+        }
+    };
+
+    const checkCameraPermission = async () => {
+        if (!navigator.permissions || !navigator.permissions.query) {
+            setPermissionNotice('Presiona "Iniciar Cámara" para solicitar permisos de cámara.');
+            return;
+        }
+        try {
+            const status = await navigator.permissions.query({ name: 'camera' });
+            const updateState = () => {
+                if (status.state === 'granted') {
+                    setPermissionNotice('Permiso de cámara concedido. Presiona iniciar.', 'info');
+                } else if (status.state === 'denied') {
+                    setPermissionNotice('Permiso denegado. Abre la configuración del navegador y habilita la cámara.', 'error');
+                } else {
+                    setPermissionNotice('Presiona "Iniciar Cámara" para solicitar permiso de cámara.');
+                }
+            };
+            updateState();
+            status.onchange = updateState;
+        } catch (err) {
+            setPermissionNotice('Presiona "Iniciar Cámara" para solicitar permisos de cámara.');
+        }
+    };
 
     const startScanner = async () => {
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            camStatus.textContent = 'Cámara no soportada';
+            camStatus.className = 'badge badge-danger';
+            alert('Tu navegador no soporta el acceso a la cámara. Usa Chrome, Edge o Firefox actualizados.');
+            return;
+        }
+
+        const granted = await requestCameraPermission();
+        if (!granted) {
+            camStatus.textContent = 'Permiso rechazado';
+            camStatus.className = 'badge badge-danger';
+            setPermissionNotice('Permiso de cámara rechazado. Revisa la configuración del navegador y vuelve a intentarlo.', 'error');
+            return;
+        }
+
         try {
             isScanning = true;
-            btnStart.disabled = true;
+            updateStartButtons(true);
             scannerOverlay.style.display = 'none';
             btnStop.style.display = 'inline-flex';
-            camStatus.textContent = 'Buscando cámara...';
+            camStatus.textContent = 'Inicializando lector...';
             camStatus.className = 'badge badge-warning';
+            setPermissionNotice('Inicializando cámara y lector QR...');
 
-            await html5QrCode.start(
-                { facingMode: "environment" },
-                {
-                    fps: 10,
-                    qrbox: { width: 250, height: 250 }
-                },
-                onScanSuccess
-            );
+            // If a camera deviceId was selected, use it; otherwise try to auto-select
+            const startConfig = {
+                fps: 20,
+                qrbox: { width: Math.min(400, Math.floor(window.innerWidth * 0.6)), height: Math.min(400, Math.floor(window.innerWidth * 0.6)) },
+                disableFlip: false,
+            };
 
-            camStatus.textContent = 'Cámara Activa';
-            camStatus.className = 'badge badge-success';
+            let started = false;
+            let lastError = null;
+
+            const tryStartWith = async (cameraIdOrConstraints) => {
+                await html5QrCode.start(
+                    cameraIdOrConstraints,
+                    startConfig,
+                    onScanSuccess,
+                    (errorMessage) => console.debug('Scanning:', errorMessage)
+                );
+            };
+
+            try {
+                if (currentDeviceId) {
+                    await tryStartWith({ deviceId: { exact: currentDeviceId } });
+                } else {
+                    // try to use environment-facing first, then user-facing
+                    try {
+                        await tryStartWith({ facingMode: { exact: 'environment' } });
+                        started = true;
+                    } catch (e) {
+                        try {
+                            await tryStartWith({ facingMode: 'environment' });
+                            started = true;
+                        } catch (e2) {
+                            // fallback to any camera
+                            const cams = await Html5Qrcode.getCameras();
+                            if (cams && cams.length) {
+                                currentDeviceId = cams[0].id;
+                                await tryStartWith({ deviceId: { exact: currentDeviceId } });
+                                started = true;
+                            }
+                        }
+                    }
+                }
+
+                if (!started) started = true;
+            } catch (err) {
+                lastError = err;
+            }
+
+            if (!started) {
+                throw lastError || new Error('No camera configuration worked');
+            }
         } catch (err) {
             console.error("Error starting scanner:", err);
             isScanning = false;
-            btnStart.disabled = false;
+            updateStartButtons(false);
             scannerOverlay.style.display = 'flex';
             btnStop.style.display = 'none';
             camStatus.textContent = 'Error de Cámara';
             camStatus.className = 'badge badge-danger';
-            alert("No se pudo acceder a la cámara. Asegúrate de dar permisos.");
+            setPermissionNotice(`Error: ${err.message || 'No se pudo acceder a la cámara'}`, 'error');
+            alert(`Error al acceder a la cámara:\n${err.message}\n\nAsegúrate de dar permisos y usar HTTPS/localhost.`);
         }
     };
 
@@ -100,10 +222,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!isScanning) return;
         try {
             await html5QrCode.stop();
+            try { await html5QrCode.clear(); } catch(e){/* ignore */}
             isScanning = false;
             btnStop.style.display = 'none';
             scannerOverlay.style.display = 'flex';
-            btnStart.disabled = false;
+            updateStartButtons(false);
             camStatus.textContent = 'Cámara Inactiva';
             camStatus.className = 'badge badge-info';
         } catch (err) {
@@ -112,6 +235,13 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     const onScanSuccess = async (decodedText) => {
+        if (!decodedText || decodedText.trim() === '') {
+            console.log("Empty QR detected, ignoring");
+            return;
+        }
+
+        console.log("QR detected:", decodedText);
+        
         // Vibrate if mobile
         if (navigator.vibrate) navigator.vibrate(100);
         
@@ -124,17 +254,25 @@ document.addEventListener('DOMContentLoaded', function() {
                 method: 'POST',
                 headers: { 
                     'Content-Type': 'application/json',
-                    'X-API-Key': 'default-scanner-secret-key-2026' // API Key set in environment/dec
+                    'X-API-Key': 'default-scanner-secret-key-2026'
                 },
                 body: JSON.stringify({ qr_code: decodedText })
             });
 
+            if (!response.ok) {
+                console.error("API Response error:", response.status, response.statusText);
+                resultPanel.className = 'scanner-status error';
+                resultPanel.textContent = `Error: ${response.statusText}`;
+                return;
+            }
+
             const data = await response.json();
+            console.log("Validation response:", data);
             showResult(data);
         } catch (error) {
             console.error("Validation error:", error);
             resultPanel.className = 'scanner-status error';
-            resultPanel.textContent = 'Error de conexión con el servidor.';
+            resultPanel.textContent = `Error: ${error.message || 'Error de conexión'}`;
         }
     };
 
@@ -167,8 +305,46 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     btnStart.onclick = startScanner;
+    btnStartHeader.onclick = startScanner;
     btnStop.onclick = stopScanner;
     scannerOverlay.onclick = startScanner;
+
+    // Populate camera list for user selection
+    try {
+        const devices = await Html5Qrcode.getCameras();
+        cameraSelect.innerHTML = '';
+        if (devices && devices.length) {
+            devices.forEach(d => {
+                const opt = document.createElement('option');
+                opt.value = d.id;
+                opt.textContent = d.label || `Camera ${d.id}`;
+                cameraSelect.appendChild(opt);
+            });
+            cameraSelect.prepend(new Option('Auto (recomendado)', ''));
+            cameraSelect.value = '';
+            cameraSelect.onchange = () => { currentDeviceId = cameraSelect.value || null; };
+        } else {
+            cameraSelect.innerHTML = '<option value="">No se detectaron cámaras</option>';
+        }
+    } catch (err) {
+        cameraSelect.innerHTML = '<option value="">Error detectando cámaras</option>';
+        console.warn('getCameras failed', err);
+    }
+
+    // File upload fallback for environments without camera
+    fileInput.addEventListener('change', async (ev) => {
+        const file = ev.target.files && ev.target.files[0];
+        if (!file) return;
+        try {
+            const result = await html5QrCode.scanFile(file, true);
+            if (result && result.decodedText) onScanSuccess(result.decodedText);
+        } catch (err) {
+            alert('No se detectó QR en la imagen seleccionada.');
+        }
+        fileInput.value = '';
+    });
+
+    checkCameraPermission();
 });
 </script>
 <style>

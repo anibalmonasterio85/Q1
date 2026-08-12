@@ -16,5 +16,8 @@ else {
 }
 
 # Start web panel
-Write-Host "[>>] Iniciando panel web en http://localhost:5000 ..." -ForegroundColor Cyan
-python (Join-Path $PSScriptRoot "web_panel\app.py")
+$env:FLASK_PORT = "5001"
+Write-Host "[>>] Iniciando panel web en http://localhost:5001 ..." -ForegroundColor Cyan
+# Resolve project root (one level up from deployment) and start the app
+$projectRoot = Split-Path $PSScriptRoot -Parent
+python (Join-Path $projectRoot "web_panel\app.py")

@@ -14,6 +14,34 @@ Sistema profesional de control de acceso mediante códigos QR dinámicos, diseñ
 
 ---
 
+## 🧱 Estructura del Proyecto
+
+* `web_panel/` — Panel central con Flask, rutas, modelos y servicios.
+  * `web_panel/app.py` — Punto de entrada del servidor web.
+  * `web_panel/routes/` — Blueprints de `auth`, `dashboard`, `admin`, `api`, `scanner`.
+  * `web_panel/models/` — Acceso a datos para usuarios, logs y zonas.
+  * `web_panel/services/` — Lógica de QR, email, TOTP y exportación.
+  * `web_panel/static/`, `web_panel/templates/` — UI y assets para el panel.
+* `scanner/` — Módulo físico de escaneo QR.
+  * `scanner/physical.py` — Lógica de cámara, detección y validación QR.
+  * `scanner/scanner_fisico.py` — Wrapper compatible con el comando histórico.
+  * `scanner/README.md` — Documentación del escáner físico.
+* `database/` — Scripts SQL para esquema, índices y migraciones.
+* `deployment/` — Archivos de despliegue y configuración de infraestructura.
+  * `deployment/nginx.conf` — Configuración de proxy reverso.
+  * `deployment/start.ps1` — Script de inicio en Windows.
+  * `deployment/stop.ps1` — Script de detención en Windows.
+* `config/` — Configuración de entorno, base de datos y logging.
+* `docs/` — Documentación técnica y manual de usuario.
+* `scripts/` — Utilidades de instalación y mantenimiento.
+  * `scripts/restaurar_cuentas.py` — Restaurar cuentas y generar credenciales de prueba.
+  * `scripts/init_database.py` — Inicialización de la base de datos.
+* `tests/` — Todos los tests del proyecto.
+  * `tests/test_auth.py` — Pruebas de autenticación.
+  * `tests/test_login.py` — Pruebas de login.
+
+---
+
 ## 🛠 Instalación y Configuración
 
 ### 1. Requisitos Previos
@@ -66,6 +94,8 @@ El escáner es el programa que activa la cámara y espera que una credencial sea
     python scanner/scanner_fisico.py
     ```
 
+*   **Nota**: el módulo de escáner ahora está organizado en `scanner/physical.py` y mantiene el wrapper histórico `scanner/scanner_fisico.py`.
+
 ---
 
 ## 📋 Arquitectura y Seguridad
@@ -88,7 +118,7 @@ He conservado la documentación técnica detallada (esquemas de DB, despliegue A
 
 *   📖 **[Guía Técnica Detallada](docs/README_OLD.md)** - Esquemas completos de tablas y performance.
 *   📘 **[Manual de Usuario](docs/MANUAL_USUARIO.md)** - Para operadores del sistema.
-*   📙 **[Guía de Inicio Rápido](QUICKSTART.md)** - Pasos alternativos de despliegue.
+*   📙 **[Guía de Inicio Rápido](docs/QUICKSTART.md)** - Pasos alternativos de despliegue.
 
 ---
 

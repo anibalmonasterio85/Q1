@@ -21,15 +21,16 @@ QR_Access_PROPC/
 ├── CONTRIBUTING.md              # Guía de contribución
 ├── Dockerfile                   # Imagen Docker (Python 3.11-slim)
 ├── docker-compose.yml           # Stack completo (web + mysql + redis + nginx)
-├── nginx.conf                   # Proxy reverso con SSL/TLS, rate limiting
+├── deployment/nginx.conf        # Proxy reverso con SSL/TLS, rate limiting
+├── deployment/start.ps1         # Script de inicio (Windows/PowerShell)
+├── deployment/stop.ps1          # Script de detención (Windows/PowerShell)
 ├── pytest.ini                   # Configuración de pytest con markers
 ├── requirements.txt             # 22 dependencias Python
 ├── README.md                    # Documentación principal
-├── QUICKSTART.md                # Guía de inicio rápido
-├── start.ps1                    # Script de inicio (Windows/PowerShell)
-├── stop.ps1                     # Script de detención (Windows/PowerShell)
-├── test_auth.py                 # Test de autenticación (raíz)
-├── test_login.py                # Test de login (raíz)
+├── docs/QUICKSTART.md           # Guía de inicio rápido
+├── docs/analysis_report.md      # Reporte de análisis
+├── scripts/restaurar_cuentas.py # Restaurar cuentas y datos de prueba
+├── tests/                       # Suites de pruebas
 │
 ├── config/                      # ⚙️ Configuración centralizada
 │   ├── __init__.py
@@ -403,8 +404,8 @@ Módulo de nómina: `create_shift`, `create_jornada`, `calculate_jornada_hours` 
 
 | Script | Descripción |
 |:---|:---|
-| [start.ps1](file:///d:/Proyectos/actuales/QR_Access_PROPC/start.ps1) | Activa venv + ejecuta `python web_panel/app.py` |
-| [stop.ps1](file:///d:/Proyectos/actuales/QR_Access_PROPC/stop.ps1) | Termina procesos en puerto 5000 |
+| [deployment/start.ps1](../deployment/start.ps1) | Activa venv + ejecuta `python web_panel/app.py` |
+| [deployment/stop.ps1](../deployment/stop.ps1) | Termina procesos en puerto 5000 |
 
 ### 5.2 Scripts Python (`scripts/`)
 
@@ -423,7 +424,7 @@ Módulo de nómina: `create_shift`, `create_jornada`, `calculate_jornada_hours` 
 |:---|:---|:---|
 | `Dockerfile` | `docker build .` | Python 3.11-slim, instala deps, expone 5000, Gunicorn 4 workers |
 | `docker-compose.yml` | `docker-compose up` | 4 servicios: web, mysql, redis, nginx |
-| `nginx.conf` | — | Proxy reverso con SSL, rate limiting por zona, gzip, cache de estáticos |
+| `deployment/nginx.conf` | — | Proxy reverso con SSL, rate limiting por zona, gzip, cache de estáticos |
 
 ---
 
@@ -482,9 +483,8 @@ tests/
 └── test_routes.py       # 260 líneas — 14 tests (auth, dashboard, API, admin, seguridad)
 ```
 
-**Archivos adicionales en raíz** (fuera de `tests/`):
-- `test_auth.py` (903 bytes)
-- `test_login.py` (481 bytes)
+**Archivos de prueba organizados en `tests/`.**
+Todos los tests ahora residen dentro de la carpeta `tests/`, incluyendo `test_auth.py` y `test_login.py`.
 
 ### 7.2 Framework y Configuración
 
@@ -594,7 +594,7 @@ tests/
 | 7 | Cobertura ~35-40% (meta 80%) | Agregar tests para zone, payroll, export, audit |
 | 8 | `pytest-cov` no está instalado | Agregar a `requirements.txt` para medir cobertura |
 | 9 | Tests de `conftest.py` usan `SQLALCHEMY_DATABASE_URI` pero no hay SQLAlchemy | Limpiar configuración de test |
-| 10 | Tests sueltos en raíz (`test_auth.py`, `test_login.py`) | Mover a `tests/` |
+| 10 | Tests sueltos en raíz (`test_auth.py`, `test_login.py`) | Mover a `tests/` ✅ Completado |
 
 #### Arquitectura (Baja prioridad)
 
