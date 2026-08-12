@@ -1,4 +1,6 @@
-﻿venv/
+venv/
 __pycache__/
+*.pyc
+web_panel/static/qrcodes/*.png
 .env
-logs/
+*.log
